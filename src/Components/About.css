@@ -1,0 +1,34 @@
+.about{
+    background-image: url('./images/story.jpg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+    
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+}
+.aboutcards{
+    padding:  5% 15% ;
+
+
+}
+.aboutcard2{
+    background-color: #faebd765;
+    width: 80%;
+    border: transparent;
+    border-radius: 45px;
+    color: #dff2f3;
+    
+}
+.aboutcard1 ,.aboutcard3{
+    background-color: #1a434575;
+    color: antiquewhite;
+    width: 80%;
+    border: transparent;
+    border-radius: 45px;
+}

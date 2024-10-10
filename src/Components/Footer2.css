@@ -1,0 +1,15 @@
+.footer2{
+    background-color: #faebd7;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footerlogo2{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}

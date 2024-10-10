@@ -1,0 +1,12 @@
+.logo{
+    background-color: #1a4345;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    padding: 0 1% ;
+    border-left: 15px solid antiquewhite;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+}

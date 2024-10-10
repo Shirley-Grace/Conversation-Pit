@@ -1,0 +1,53 @@
+.hero{
+    background-image: url('./images/hero2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50rem;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tag{
+    font-size: 5rem;
+    color: antiquewhite;
+    margin-top: 30%;
+    margin-left: 5%;
+    font-family: 'NaziTypewriterRegular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+.cta{
+    margin-top: 30%;
+    margin-left: 15%;
+}
+.cta p{
+    font-size: 35px;
+    color: antiquewhite;
+    font-family: 'Journal74Regular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+.cta input{
+    border: transparent;
+    width: 20rem;
+    height: 60px;
+    border-radius: 45px;
+    text-indent: 5%;
+    
+}
+.cta button{
+    margin-left: 30px;
+    border-radius: 45px;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(243, 144, 16);
+    color: antiquewhite;
+    border: transparent;
+
+}

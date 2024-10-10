@@ -1,0 +1,61 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/greenred2.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+.form{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), #1a434595);
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+
+
+}
+.input-group{
+    margin-bottom: 40px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid antiquewhite;
+    background: transparent;
+    font-size: 20px ;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: antiquewhite;
+    cursor: text;
+}
+button{
+    padding: 10px 0;
+    color: antiquewhite;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid antiquewhite;
+
+}
+input:focus~label{
+    top: -40px;
+    
+}

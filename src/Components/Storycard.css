@@ -1,0 +1,32 @@
+.card-display{
+    background-color: #f7f4f3;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.storycard{
+    border: transparent;
+    border-radius: 20px;
+    max-width: 400px;
+    height: 550px;
+    padding: 5px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    box-shadow:  45px 30px #1a4345;
+    margin: 20px;
+}
+.author{
+    width: 400px;
+    height: 250px;
+    border: transparent;
+    border-radius: 20px 20px 30px;
+}
+.storycard a{
+    text-decoration: none;
+    color: black;
+}
+.storycard a:hover{
+    color: rgb(4, 107, 73);
+    font-size: 20px;
+}
