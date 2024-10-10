@@ -1,4 +1,7 @@
 import './App.css';
+import {BrowserRouter as Router , Route, Switch} from 'react-router-dom'
+import Layouts from './hocs/Layouts'
+
 import Header from './Components/Header.jsx'
 import Nav from './Components/Nav.jsx'
 import Hero from './Components/Hero.jsx'
@@ -19,6 +22,8 @@ function App() {
       {/* <About /> */}
       <Contact />
       <Footer />
+      <Storycard />
+      <StoryDetail />
 
     </div>
   );
